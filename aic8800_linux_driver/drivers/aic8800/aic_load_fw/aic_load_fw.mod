@@ -1,0 +1,10 @@
+/home/hongxin/Apps/usb_wifi_linux/aic8800_linux_driver/drivers/aic8800/aic_load_fw/aic_bluetooth_main.o
+/home/hongxin/Apps/usb_wifi_linux/aic8800_linux_driver/drivers/aic8800/aic_load_fw/aicbluetooth.o
+/home/hongxin/Apps/usb_wifi_linux/aic8800_linux_driver/drivers/aic8800/aic_load_fw/aicwf_usb.o
+/home/hongxin/Apps/usb_wifi_linux/aic8800_linux_driver/drivers/aic8800/aic_load_fw/aic_txrxif.o
+/home/hongxin/Apps/usb_wifi_linux/aic8800_linux_driver/drivers/aic8800/aic_load_fw/aicbluetooth_cmds.o
+/home/hongxin/Apps/usb_wifi_linux/aic8800_linux_driver/drivers/aic8800/aic_load_fw/aic_compat_8800d80.o
+/home/hongxin/Apps/usb_wifi_linux/aic8800_linux_driver/drivers/aic8800/aic_load_fw/aic_compat_8800d80x2.o
+/home/hongxin/Apps/usb_wifi_linux/aic8800_linux_driver/drivers/aic8800/aic_load_fw/md5.o
+/home/hongxin/Apps/usb_wifi_linux/aic8800_linux_driver/drivers/aic8800/aic_load_fw/aicwf_rx_prealloc.o
+/home/hongxin/Apps/usb_wifi_linux/aic8800_linux_driver/drivers/aic8800/aic_load_fw/aicwf_txq_prealloc.o

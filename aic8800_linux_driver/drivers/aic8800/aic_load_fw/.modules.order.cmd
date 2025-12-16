@@ -1,0 +1,1 @@
+savedcmd_/home/hongxin/Apps/usb_wifi_linux/aic8800_linux_driver/drivers/aic8800/aic_load_fw/modules.order := {   echo /home/hongxin/Apps/usb_wifi_linux/aic8800_linux_driver/drivers/aic8800/aic_load_fw/aic_load_fw.o; :; } > /home/hongxin/Apps/usb_wifi_linux/aic8800_linux_driver/drivers/aic8800/aic_load_fw/modules.order
