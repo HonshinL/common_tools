@@ -1,0 +1,1 @@
+savedcmd_/home/hongxin/Apps/usb_wifi_linux/aic8800_linux_driver/drivers/aic8800/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/hongxin/Apps/usb_wifi_linux/aic8800_linux_driver/drivers/aic8800/Module.symvers -T /home/hongxin/Apps/usb_wifi_linux/aic8800_linux_driver/drivers/aic8800/modules.order -i Module.symvers -e 
