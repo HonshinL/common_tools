@@ -1,0 +1,27 @@
+flowchart TD
+    %% DXF文档结构
+    subgraph A["doc (DXF文档)"]
+        B["图层 (Layers)"]
+        C["线型 (Linetypes)"]
+        D["文本样式 (Text Styles)"]
+        F["块定义 (Block Definitions)"]
+    
+        subgraph E["布局 (Layouts)"]
+            G["msp (模型空间)"]
+            H["psp (图纸空间)"]
+        end
+    end
+    
+    %% 样式定义
+    classDef doc fill:#e3f2fd,stroke:#1565c0,stroke-width:3px
+    classDef componentGroup fill:#fce4ec,stroke:#ad1457,stroke-width:2px
+    classDef layoutGroup fill:#e8f5e8,stroke:#2e7d32,stroke-width:2px
+    classDef subLayoutGroup fill:#f1f8e9,stroke:#558b2f,stroke-width:1px
+    classDef component fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    classDef layout fill:#c8e6c9,stroke:#388e3c,stroke-width:2px
+    
+    %% 应用样式
+    class A doc
+    class B,C,D,F component
+    class E layout
+    class G,H layout
