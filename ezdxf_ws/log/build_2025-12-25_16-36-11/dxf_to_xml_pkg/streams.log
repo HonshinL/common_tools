@@ -1,0 +1,24 @@
+[0.302s] Invoking command in '/home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/src/dxf_to_xml_pkg': CONDA_PROMPT_MODIFIER=(viz) PYTHONPATH=/home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/build/dxf_to_xml_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/install/dxf_to_xml_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dxf_to_xml_pkg build --build-base /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/build/dxf_to_xml_pkg/build install --record /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/build/dxf_to_xml_pkg/install.log --single-version-externally-managed install_data
+[0.409s] /usr/lib/python3.10/distutils/dist.py:274: UserWarning: Unknown distribution option: 'rosidl_interface_packages'
+[0.409s]   warnings.warn(msg)
+[0.414s] running egg_info
+[0.414s] writing ../../build/dxf_to_xml_pkg/dxf_to_xml_pkg.egg-info/PKG-INFO
+[0.414s] writing dependency_links to ../../build/dxf_to_xml_pkg/dxf_to_xml_pkg.egg-info/dependency_links.txt
+[0.414s] writing entry points to ../../build/dxf_to_xml_pkg/dxf_to_xml_pkg.egg-info/entry_points.txt
+[0.414s] writing requirements to ../../build/dxf_to_xml_pkg/dxf_to_xml_pkg.egg-info/requires.txt
+[0.415s] writing top-level names to ../../build/dxf_to_xml_pkg/dxf_to_xml_pkg.egg-info/top_level.txt
+[0.415s] reading manifest file '../../build/dxf_to_xml_pkg/dxf_to_xml_pkg.egg-info/SOURCES.txt'
+[0.415s] writing manifest file '../../build/dxf_to_xml_pkg/dxf_to_xml_pkg.egg-info/SOURCES.txt'
+[0.415s] running build
+[0.415s] running build_py
+[0.416s] running install
+[0.416s] running install_lib
+[0.416s] running install_data
+[0.416s] running install_egg_info
+[0.416s] removing '/home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/install/dxf_to_xml_pkg/lib/python3.10/site-packages/dxf_to_xml_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.416s] Copying ../../build/dxf_to_xml_pkg/dxf_to_xml_pkg.egg-info to /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/install/dxf_to_xml_pkg/lib/python3.10/site-packages/dxf_to_xml_pkg-0.0.0-py3.10.egg-info
+[0.417s] running install_scripts
+[0.427s] Installing dxf_to_xml_client script to /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/install/dxf_to_xml_pkg/lib/dxf_to_xml_pkg
+[0.427s] Installing dxf_to_xml_server script to /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/install/dxf_to_xml_pkg/lib/dxf_to_xml_pkg
+[0.427s] writing list of installed files to '/home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/build/dxf_to_xml_pkg/install.log'
+[0.440s] Invoked command in '/home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/src/dxf_to_xml_pkg' returned '0': CONDA_PROMPT_MODIFIER=(viz) PYTHONPATH=/home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/build/dxf_to_xml_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/install/dxf_to_xml_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dxf_to_xml_pkg build --build-base /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/build/dxf_to_xml_pkg/build install --record /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/build/dxf_to_xml_pkg/install.log --single-version-externally-managed install_data

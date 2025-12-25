@@ -1,0 +1,4 @@
+[console_scripts]
+dxf_to_xml_client = dxf_to_xml_pkg.dxf_to_xml_client:main
+dxf_to_xml_server = dxf_to_xml_pkg.dxf_to_xml_server:main
+

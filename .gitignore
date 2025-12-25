@@ -1,1 +1,4 @@
-/.marscode
+.marscode/
+.vscode/
+cmakelists_ws/
+ros2_template/
