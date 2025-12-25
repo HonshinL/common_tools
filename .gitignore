@@ -2,3 +2,7 @@
 .vscode/
 cmakelists_ws/
 ros2_template/
+ezdxf_ws/build/
+ezdxf_ws/install/
+ezdxf_ws/log/
+ezdxf_ws/.marscode

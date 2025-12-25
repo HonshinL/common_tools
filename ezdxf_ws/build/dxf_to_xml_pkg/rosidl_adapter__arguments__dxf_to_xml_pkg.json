@@ -1,6 +1,0 @@
-{
-  "package_name": "dxf_to_xml_pkg",
-  "non_idl_tuples": [
-    "/home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/src/dxf_to_xml_pkg:srv/DxfToXml.srv"
-  ]
-}

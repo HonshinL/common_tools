@@ -1,6 +1,6 @@
 import rclpy
 from rclpy.node import Node
-from dxf_to_xml_pkg.srv import DxfToXml
+from cad_convert_msgs.srv import DxfToXml
 
 class DxfToXmlClient(Node):
     def __init__(self):

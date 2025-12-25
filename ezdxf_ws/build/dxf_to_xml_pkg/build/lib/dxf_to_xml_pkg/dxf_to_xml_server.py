@@ -1,8 +1,9 @@
 import rclpy
 from rclpy.node import Node
-from dxf_to_xml_pkg.srv import DxfToXml
+from cad_convert_msgs.srv import DxfToXml
 import ezdxf
 import xml.etree.ElementTree as ET
+import xml.dom.minidom as minidom
 import math
 
 class DxfToXmlService(Node):
@@ -76,13 +77,31 @@ class DxfToXmlService(Node):
                                   id=str(j), x=str(fp[0]), y=str(fp[1]))
                 index += 1
 
-            # 转换为字符串
-            xml_str = ET.tostring(root, encoding="unicode")
+            import os
+
+            # 使用 minidom 美化输出
+            rough_string = ET.tostring(root, encoding="unicode")
+            xml_str = minidom.parseString(rough_string).toprettyxml(indent="  ")
+
             response.xml_content = xml_str
 
-            # 保存到文件
-            with open("output.xml", "w") as f:
+            # 获取源代码包路径（当前脚本所在目录的上一级）
+            pkg_src = os.path.dirname(os.path.dirname(__file__))
+            output_dir = os.path.join(pkg_src, 'output')
+            os.makedirs(output_dir, exist_ok=True)
+
+            # 根据 DXF 文件名生成 XML 文件名
+            dxf_basename = os.path.basename(request.filename)       # 例如 "drawing.dxf"
+            xml_filename = os.path.splitext(dxf_basename)[0] + ".xml"  # 变成 "drawing.xml"
+
+            output_path = os.path.join(output_dir, xml_filename)
+
+            # 保存 XML 文件到源代码包的 output 文件夹
+            with open(output_path, "w") as f:
                 f.write(xml_str)
+
+            self.get_logger().info(f"XML saved to: {output_path}")
+
 
         except Exception as e:
             self.get_logger().error(f"Failed to convert DXF: {e}")

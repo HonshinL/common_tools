@@ -8,14 +8,10 @@ setup.py
 ../../build/dxf_to_xml_pkg/dxf_to_xml_pkg.egg-info/requires.txt
 ../../build/dxf_to_xml_pkg/dxf_to_xml_pkg.egg-info/top_level.txt
 ../../build/dxf_to_xml_pkg/dxf_to_xml_pkg.egg-info/zip-safe
-./dxf_to_xml_pkg/__init__.py
-./dxf_to_xml_pkg/dxf_to_xml_client.py
-./dxf_to_xml_pkg/dxf_to_xml_server.py
 dxf_to_xml_pkg/__init__.py
 dxf_to_xml_pkg/dxf_to_xml_client.py
 dxf_to_xml_pkg/dxf_to_xml_server.py
 resource/dxf_to_xml_pkg
-srv/DxfToXml.srv
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

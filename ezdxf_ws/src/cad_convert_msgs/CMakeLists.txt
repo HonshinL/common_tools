@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(inference_msgs)
+project(cad_convert_msgs)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -11,14 +11,7 @@ find_package(builtin_interfaces REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/CombinedData.msg"
-  "msg/InferResult.msg"
-  "msg/Measurement.msg"
-  "msg/SpectrumSignals.msg"
-  "msg/PerceptionArray.msg"
-  "msg/PerceptionBatch.msg"
-  "msg/PerceptionData.msg"
-  "srv/GetIntensity.srv"
+  "srv/DxfToXml.srv"
   DEPENDENCIES builtin_interfaces
 )
 

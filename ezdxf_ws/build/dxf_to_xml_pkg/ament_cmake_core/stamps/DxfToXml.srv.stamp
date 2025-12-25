@@ -1,4 +1,0 @@
-# 请求：DXF 文件路径
-string filename
-# 响应：XML 文件内容
-string xml_content

@@ -10,7 +10,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/dxf_to_xml_pkg']),
         ('share/dxf_to_xml_pkg', ['package.xml']),
-        ('share/dxf_to_xml_pkg/srv', ['srv/DxfToXml.srv']),
+        ('share/dxf_to_xml_pkg/output', []), # 安装时创建 output 文件夹 ],
     ],
     install_requires=['setuptools'],
     zip_safe=True,
