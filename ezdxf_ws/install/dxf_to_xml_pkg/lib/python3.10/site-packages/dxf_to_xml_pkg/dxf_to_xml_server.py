@@ -5,15 +5,18 @@ import ezdxf
 import xml.etree.ElementTree as ET
 import xml.dom.minidom as minidom
 import math
+import os
+import argparse
 
 class DxfToXmlService(Node):
-    def __init__(self):
+    def __init__(self, output_dir=None):
         super().__init__('dxf_to_xml_service')
         self.srv = self.create_service(DxfToXml, 'convert_dxf_to_xml', self.convert_callback)
+        self.output_dir = output_dir
 
     def convert_callback(self, request, response):
         try:
-            doc = ezdxf.readfile(request.filename)
+            doc = ezdxf.readfile(request.file_path)
             msp = doc.modelspace()
 
             root = ET.Element("shapes")
@@ -38,14 +41,14 @@ class DxfToXmlService(Node):
                               r=str(radius))
                 index += 1
 
-            # 圆弧（始终按 DXF CCW 方向）
+            # 圆弧
             for arc in msp.query("ARC"):
                 center = arc.dxf.center
                 radius = arc.dxf.radius
                 start_angle = math.radians(arc.dxf.start_angle)
                 end_angle = math.radians(arc.dxf.end_angle)
                 span = (end_angle - start_angle) % (2 * math.pi)
-                angles = [start_angle + span * i / 20 for i in range(21)]  # 采样 20 段
+                angles = [start_angle + span * i / 20 for i in range(21)]
                 arc_elem = ET.SubElement(root, "arc",
                                          index=str(index),
                                          cx=str(center.x), cy=str(center.y),
@@ -67,51 +70,44 @@ class DxfToXmlService(Node):
                 for j, (x, y) in enumerate(points):
                     ET.SubElement(spline_elem, "point",
                                   id=str(j), x=str(x), y=str(y))
-                # 控制点
                 for j, cp in enumerate(spline.control_points):
                     ET.SubElement(spline_elem, "control_point",
                                   id=str(j), x=str(cp[0]), y=str(cp[1]))
-                # 拟合点
                 for j, fp in enumerate(spline.fit_points):
                     ET.SubElement(spline_elem, "fit_point",
                                   id=str(j), x=str(fp[0]), y=str(fp[1]))
                 index += 1
 
-            import os
-
-            # 使用 minidom 美化输出
+            # 美化输出
             rough_string = ET.tostring(root, encoding="unicode")
             xml_str = minidom.parseString(rough_string).toprettyxml(indent="  ")
+            response.xml_output = xml_str
 
-            response.xml_content = xml_str
-
-            # 获取源代码包路径（当前脚本所在目录的上一级）
-            pkg_src = os.path.dirname(os.path.dirname(__file__))
-            output_dir = os.path.join(pkg_src, 'output')
+            # 输出目录：命令行指定或 DXF 同目录
+            output_dir = self.output_dir or os.path.dirname(request.file_path)
             os.makedirs(output_dir, exist_ok=True)
 
-            # 根据 DXF 文件名生成 XML 文件名
-            dxf_basename = os.path.basename(request.filename)       # 例如 "drawing.dxf"
-            xml_filename = os.path.splitext(dxf_basename)[0] + ".xml"  # 变成 "drawing.xml"
-
+            xml_filename = os.path.splitext(os.path.basename(request.file_path))[0] + ".xml"
             output_path = os.path.join(output_dir, xml_filename)
 
-            # 保存 XML 文件到源代码包的 output 文件夹
             with open(output_path, "w") as f:
                 f.write(xml_str)
 
             self.get_logger().info(f"XML saved to: {output_path}")
 
-
         except Exception as e:
             self.get_logger().error(f"Failed to convert DXF: {e}")
-            response.xml_content = "<error>DXF parsing failed</error>"
+            response.xml_output = "<error>DXF parsing failed</error>"
         return response
 
 
 def main(args=None):
-    rclpy.init(args=args)
-    node = DxfToXmlService()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output-dir", help="Directory to save XML files", default=None)
+    cli_args, ros_args = parser.parse_known_args()
+
+    rclpy.init(args=ros_args)
+    node = DxfToXmlService(output_dir=cli_args.output_dir)
     rclpy.spin(node)
     rclpy.shutdown()
 

@@ -1,0 +1,7 @@
+sequenceDiagram
+    participant dxf_to_xml_client
+    participant dxf_to_xml_server
+    participant DxfToXml.srv as "DxfToXml.srv 服务"
+    dxf_to_xml_client->>dxf_to_xml_server: 发送dxf文件请求（通过 DxfToXml.srv）
+    dxf_to_xml_server->>dxf_to_xml_server: 处理dxf文件转换为xml
+    dxf_to_xml_server->>dxf_to_xml_client: 返回xml文件地址（通过 DxfToXml.srv）
