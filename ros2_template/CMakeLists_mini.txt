@@ -1,0 +1,23 @@
+cmake_minimum_required(VERSION 3.10)
+project(my_lib)
+
+find_package(ament_cmake REQUIRED)
+find_package(Eigen3 REQUIRED)
+
+add_library(my_lib src/my_lib.cpp)
+ament_target_dependencies(my_lib Eigen3)
+
+add_executable(my_node src/main.cpp)
+ament_target_dependencies(my_node Eigen3)
+
+install(TARGETS
+  my_lib
+  my_node
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(DIRECTORY include/
+  DESTINATION include/
+)
+
+ament_package()

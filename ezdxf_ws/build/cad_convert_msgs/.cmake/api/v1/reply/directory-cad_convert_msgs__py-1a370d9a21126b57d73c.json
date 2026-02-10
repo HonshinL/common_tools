@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "cad_convert_msgs__py",
+		"source" : "/home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/build/cad_convert_msgs/cad_convert_msgs__py"
+	}
+}

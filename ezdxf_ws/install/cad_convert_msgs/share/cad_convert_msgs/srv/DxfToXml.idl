@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from cad_convert_msgs/srv/DxfToXml.srv
+// generated code does not contain a copyright notice
+
+
+module cad_convert_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "请求：DXF 文件路径")
+    struct DxfToXml_Request {
+      string file_path;
+    };
+    @verbatim (language="comment", text=
+      "响应：XML 文件内容")
+    struct DxfToXml_Response {
+      boolean success;
+
+      string xml_output;
+    };
+  };
+};

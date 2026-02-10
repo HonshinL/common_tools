@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>ros2_depend</name>
+  <version>0.0.1</version>
+  <description>Minimal ROS 2 node with local and external dependencies</description>
+
+  <maintainer email="chris@example.com">Chris</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- ROS 2 依赖 -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+
+  <!-- 第三方依赖 -->
+  <exec_depend>opencv</exec_depend>
+
+</package>

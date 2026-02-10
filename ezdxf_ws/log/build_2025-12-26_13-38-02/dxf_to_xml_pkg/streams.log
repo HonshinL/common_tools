@@ -1,0 +1,42 @@
+[0.308s] Invoking command in '/home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/src/dxf_to_xml_pkg': PYTHONPATH=/home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/build/dxf_to_xml_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/install/dxf_to_xml_pkg/lib/python3.10/site-packages:/home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/install/cad_convert_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dxf_to_xml_pkg build --build-base /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/build/dxf_to_xml_pkg/build install --record /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/build/dxf_to_xml_pkg/install.log --single-version-externally-managed install_data
+[0.410s] running egg_info
+[0.410s] creating ../../build/dxf_to_xml_pkg/dxf_to_xml_pkg.egg-info
+[0.410s] writing ../../build/dxf_to_xml_pkg/dxf_to_xml_pkg.egg-info/PKG-INFO
+[0.410s] writing dependency_links to ../../build/dxf_to_xml_pkg/dxf_to_xml_pkg.egg-info/dependency_links.txt
+[0.410s] writing entry points to ../../build/dxf_to_xml_pkg/dxf_to_xml_pkg.egg-info/entry_points.txt
+[0.410s] writing requirements to ../../build/dxf_to_xml_pkg/dxf_to_xml_pkg.egg-info/requires.txt
+[0.410s] writing top-level names to ../../build/dxf_to_xml_pkg/dxf_to_xml_pkg.egg-info/top_level.txt
+[0.410s] writing manifest file '../../build/dxf_to_xml_pkg/dxf_to_xml_pkg.egg-info/SOURCES.txt'
+[0.411s] reading manifest file '../../build/dxf_to_xml_pkg/dxf_to_xml_pkg.egg-info/SOURCES.txt'
+[0.415s] writing manifest file '../../build/dxf_to_xml_pkg/dxf_to_xml_pkg.egg-info/SOURCES.txt'
+[0.415s] running build
+[0.415s] running build_py
+[0.415s] creating /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/build/dxf_to_xml_pkg/build
+[0.415s] creating /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/build/dxf_to_xml_pkg/build/lib
+[0.416s] creating /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/build/dxf_to_xml_pkg/build/lib/dxf_to_xml_pkg
+[0.416s] copying dxf_to_xml_pkg/dxf_to_xml_server.py -> /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/build/dxf_to_xml_pkg/build/lib/dxf_to_xml_pkg
+[0.416s] copying dxf_to_xml_pkg/__init__.py -> /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/build/dxf_to_xml_pkg/build/lib/dxf_to_xml_pkg
+[0.416s] copying dxf_to_xml_pkg/dxf_to_xml_client.py -> /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/build/dxf_to_xml_pkg/build/lib/dxf_to_xml_pkg
+[0.416s] running install
+[0.416s] running install_lib
+[0.416s] creating /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/install/dxf_to_xml_pkg/lib/python3.10/site-packages/dxf_to_xml_pkg
+[0.416s] copying /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/build/dxf_to_xml_pkg/build/lib/dxf_to_xml_pkg/dxf_to_xml_server.py -> /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/install/dxf_to_xml_pkg/lib/python3.10/site-packages/dxf_to_xml_pkg
+[0.416s] copying /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/build/dxf_to_xml_pkg/build/lib/dxf_to_xml_pkg/__init__.py -> /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/install/dxf_to_xml_pkg/lib/python3.10/site-packages/dxf_to_xml_pkg
+[0.416s] copying /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/build/dxf_to_xml_pkg/build/lib/dxf_to_xml_pkg/dxf_to_xml_client.py -> /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/install/dxf_to_xml_pkg/lib/python3.10/site-packages/dxf_to_xml_pkg
+[0.416s] byte-compiling /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/install/dxf_to_xml_pkg/lib/python3.10/site-packages/dxf_to_xml_pkg/dxf_to_xml_server.py to dxf_to_xml_server.cpython-310.pyc
+[0.416s] byte-compiling /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/install/dxf_to_xml_pkg/lib/python3.10/site-packages/dxf_to_xml_pkg/__init__.py to __init__.cpython-310.pyc
+[0.416s] byte-compiling /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/install/dxf_to_xml_pkg/lib/python3.10/site-packages/dxf_to_xml_pkg/dxf_to_xml_client.py to dxf_to_xml_client.cpython-310.pyc
+[0.416s] running install_data
+[0.417s] creating /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/install/dxf_to_xml_pkg/share/ament_index
+[0.417s] creating /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/install/dxf_to_xml_pkg/share/ament_index/resource_index
+[0.417s] creating /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/install/dxf_to_xml_pkg/share/ament_index/resource_index/packages
+[0.417s] copying resource/dxf_to_xml_pkg -> /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/install/dxf_to_xml_pkg/share/ament_index/resource_index/packages
+[0.417s] copying package.xml -> /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/install/dxf_to_xml_pkg/share/dxf_to_xml_pkg
+[0.417s] creating /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/install/dxf_to_xml_pkg/share/dxf_to_xml_pkg/output
+[0.417s] running install_egg_info
+[0.417s] Copying ../../build/dxf_to_xml_pkg/dxf_to_xml_pkg.egg-info to /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/install/dxf_to_xml_pkg/lib/python3.10/site-packages/dxf_to_xml_pkg-0.0.0-py3.10.egg-info
+[0.417s] running install_scripts
+[0.424s] Installing dxf_to_xml_client script to /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/install/dxf_to_xml_pkg/lib/dxf_to_xml_pkg
+[0.424s] Installing dxf_to_xml_server script to /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/install/dxf_to_xml_pkg/lib/dxf_to_xml_pkg
+[0.424s] writing list of installed files to '/home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/build/dxf_to_xml_pkg/install.log'
+[0.435s] Invoked command in '/home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/src/dxf_to_xml_pkg' returned '0': PYTHONPATH=/home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/build/dxf_to_xml_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/install/dxf_to_xml_pkg/lib/python3.10/site-packages:/home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/install/cad_convert_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dxf_to_xml_pkg build --build-base /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/build/dxf_to_xml_pkg/build install --record /home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/build/dxf_to_xml_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,79 @@
+[0.008s] Invoking command in '/home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/build/ros2_depend': /usr/bin/cmake /home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/src/ros2_depend -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/install/ros2_depend
+[0.046s] -- The C compiler identification is GNU 11.4.0
+[0.085s] -- The CXX compiler identification is GNU 11.4.0
+[0.090s] -- Detecting C compiler ABI info
+[0.152s] -- Detecting C compiler ABI info - done
+[0.155s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.155s] -- Detecting C compile features
+[0.156s] -- Detecting C compile features - done
+[0.157s] -- Detecting CXX compiler ABI info
+[0.210s] -- Detecting CXX compiler ABI info - done
+[0.222s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.222s] -- Detecting CXX compile features
+[0.222s] -- Detecting CXX compile features - done
+[0.223s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.356s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.420s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.442s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.444s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.448s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.457s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.464s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.484s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.485s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.545s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.566s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.592s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.602s] -- Looking for pthread.h
+[0.662s] -- Looking for pthread.h - found
+[0.663s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.717s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.718s] -- Found Threads: TRUE  
+[0.746s] -- Found OpenCV: /usr (found version "4.5.4") 
+[0.798s] -- Configuring done
+[0.811s] -- Generating done
+[0.812s] [33mCMake Warning:
+[0.812s]   Manually-specified variables were not used by the project:
+[0.812s] 
+[0.812s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[0.812s] 
+[0.812s] [0m
+[0.817s] -- Build files have been written to: /home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/build/ros2_depend
+[0.824s] Invoked command in '/home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/build/ros2_depend' returned '0': /usr/bin/cmake /home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/src/ros2_depend -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/install/ros2_depend
+[0.830s] Invoking command in '/home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/build/ros2_depend': /usr/bin/cmake --build /home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/build/ros2_depend -- -j16 -l16
+[0.858s] [ 25%] [32mBuilding CXX object CMakeFiles/my_utils.dir/src/my_utils.cpp.o[0m
+[0.950s] [ 50%] [32m[1mLinking CXX static library libmy_utils.a[0m
+[0.999s] [ 50%] Built target my_utils
+[1.019s] [ 75%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[3.031s] [100%] [32m[1mLinking CXX executable my_node[0m
+[3.139s] [100%] Built target my_node
+[3.146s] Invoked command in '/home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/build/ros2_depend' returned '0': /usr/bin/cmake --build /home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/build/ros2_depend -- -j16 -l16
+[3.161s] Invoking command in '/home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/build/ros2_depend': /usr/bin/cmake --install /home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/build/ros2_depend
+[3.162s] -- Install configuration: ""
+[3.162s] -- Installing: /home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/install/ros2_depend/lib/ros2_depend/my_node
+[3.162s] -- Set runtime path of "/home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/install/ros2_depend/lib/ros2_depend/my_node" to ""
+[3.162s] -- Installing: /home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/install/ros2_depend/lib/ros2_depend/libmy_utils.a
+[3.163s] -- Installing: /home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/install/ros2_depend/include/ros2_depend
+[3.163s] -- Installing: /home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/install/ros2_depend/include/ros2_depend/ros2_depend
+[3.163s] -- Installing: /home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/install/ros2_depend/include/ros2_depend/ros2_depend/my_utils.hpp
+[3.163s] -- Installing: /home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/install/ros2_depend/share/ros2_depend/environment/library_path.sh
+[3.163s] -- Installing: /home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/install/ros2_depend/share/ros2_depend/environment/library_path.dsv
+[3.163s] -- Installing: /home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/install/ros2_depend/share/ament_index/resource_index/package_run_dependencies/ros2_depend
+[3.163s] -- Installing: /home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/install/ros2_depend/share/ament_index/resource_index/parent_prefix_path/ros2_depend
+[3.163s] -- Installing: /home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/install/ros2_depend/share/ros2_depend/environment/ament_prefix_path.sh
+[3.163s] -- Installing: /home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/install/ros2_depend/share/ros2_depend/environment/ament_prefix_path.dsv
+[3.163s] -- Installing: /home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/install/ros2_depend/share/ros2_depend/environment/path.sh
+[3.163s] -- Installing: /home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/install/ros2_depend/share/ros2_depend/environment/path.dsv
+[3.163s] -- Installing: /home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/install/ros2_depend/share/ros2_depend/local_setup.bash
+[3.163s] -- Installing: /home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/install/ros2_depend/share/ros2_depend/local_setup.sh
+[3.163s] -- Installing: /home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/install/ros2_depend/share/ros2_depend/local_setup.zsh
+[3.163s] -- Installing: /home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/install/ros2_depend/share/ros2_depend/local_setup.dsv
+[3.163s] -- Installing: /home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/install/ros2_depend/share/ros2_depend/package.dsv
+[3.163s] -- Installing: /home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/install/ros2_depend/share/ament_index/resource_index/packages/ros2_depend
+[3.163s] -- Installing: /home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/install/ros2_depend/share/ros2_depend/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.163s] -- Installing: /home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/install/ros2_depend/share/ros2_depend/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.163s] -- Installing: /home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/install/ros2_depend/share/ros2_depend/cmake/ament_cmake_export_libraries-extras.cmake
+[3.163s] -- Installing: /home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/install/ros2_depend/share/ros2_depend/cmake/ros2_dependConfig.cmake
+[3.163s] -- Installing: /home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/install/ros2_depend/share/ros2_depend/cmake/ros2_dependConfig-version.cmake
+[3.163s] -- Installing: /home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/install/ros2_depend/share/ros2_depend/package.xml
+[3.164s] Invoked command in '/home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/build/ros2_depend' returned '0': /usr/bin/cmake --install /home/hongxin/Projects/10_Github/common_tools/cmakelists_ws/build/ros2_depend

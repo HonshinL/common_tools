@@ -1,0 +1,6 @@
+# 请求：DXF 文件路径
+string file_path
+---
+# 响应：XML 文件内容
+bool success 
+string xml_output

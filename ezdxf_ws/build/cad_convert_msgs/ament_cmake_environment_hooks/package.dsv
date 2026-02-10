@@ -1,0 +1,4 @@
+source;share/cad_convert_msgs/local_setup.bash
+source;share/cad_convert_msgs/local_setup.dsv
+source;share/cad_convert_msgs/local_setup.sh
+source;share/cad_convert_msgs/local_setup.zsh

@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-fbddae47ecfc6fca2a38.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "cad_convert_msgs__py",
+					"jsonFile" : "directory-cad_convert_msgs__py-1a370d9a21126b57d73c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/build/cad_convert_msgs/cad_convert_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "cad_convert_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_cad_convert_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_cad_convert_msgs_egg-f83db3b0e95cd2425f58.json",
+					"name" : "ament_cmake_python_build_cad_convert_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_cad_convert_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_cad_convert_msgs-666c58f97a60b7ae2588.json",
+					"name" : "ament_cmake_python_copy_cad_convert_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cad_convert_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cad_convert_msgs-619a17810c0333e3e9d1.json",
+					"name" : "cad_convert_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cad_convert_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cad_convert_msgs__cpp-53806ef9a25db6f0f4a5.json",
+					"name" : "cad_convert_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "cad_convert_msgs__py::@9c7b74543b4bd1a3b5fa",
+					"jsonFile" : "target-cad_convert_msgs__py-2e06b58884caf07e24d4.json",
+					"name" : "cad_convert_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cad_convert_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cad_convert_msgs__rosidl_generator_c-ef2b072227472da3585f.json",
+					"name" : "cad_convert_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cad_convert_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cad_convert_msgs__rosidl_generator_py-cb90adf3414dbda8d15d.json",
+					"name" : "cad_convert_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cad_convert_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cad_convert_msgs__rosidl_typesupport_c-0f7cddd74f00f61bc2cf.json",
+					"name" : "cad_convert_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cad_convert_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cad_convert_msgs__rosidl_typesupport_c__pyext-5f3c789e0d1a77a6d6b1.json",
+					"name" : "cad_convert_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cad_convert_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cad_convert_msgs__rosidl_typesupport_cpp-4e20390e977285d8e128.json",
+					"name" : "cad_convert_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cad_convert_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cad_convert_msgs__rosidl_typesupport_fastrtps_c-dfdcd0fc970062aba249.json",
+					"name" : "cad_convert_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cad_convert_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cad_convert_msgs__rosidl_typesupport_fastrtps_c__pyext-13c0e21c38ec8792ecdd.json",
+					"name" : "cad_convert_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cad_convert_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cad_convert_msgs__rosidl_typesupport_fastrtps_cpp-436d145766d2d2fc4fc0.json",
+					"name" : "cad_convert_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cad_convert_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cad_convert_msgs__rosidl_typesupport_introspection_c-5a30b58a45e4135af95c.json",
+					"name" : "cad_convert_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cad_convert_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cad_convert_msgs__rosidl_typesupport_introspection_c__pyext-40d88e0340777bd7a08d.json",
+					"name" : "cad_convert_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cad_convert_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cad_convert_msgs__rosidl_typesupport_introspection_cpp-8f55f881829369b3252b.json",
+					"name" : "cad_convert_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cad_convert_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cad_convert_msgs_uninstall-7636c2ecfee54c035154.json",
+					"name" : "cad_convert_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-374ebf1e419ac62e704c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/build/cad_convert_msgs",
+		"source" : "/home/hongxin/Projects/10_Github/common_tools/ezdxf_ws/src/cad_convert_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
