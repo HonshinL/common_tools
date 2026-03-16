@@ -1,0 +1,25 @@
+flowchart TD
+    %% 导入模块
+    A["导入ezdxf模块"] --> B["创建新DXF文档"]
+    
+    %% 创建文档和图层
+    B --> C["添加TEXTLAYER图层<br/>颜色为红色"]
+    C --> D["获取模型空间(msp)"]
+    
+    %% 添加实体
+    D --> E["添加黄色线条<br/>从(0,0)到(10,0)"]
+    D --> F["添加文本'Test'<br/>居中对齐"]
+    
+    %% 保存文档
+    E --> G["保存DXF文档"]
+    F --> G
+    
+    %% 样式定义
+    classDef start fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    classDef process fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
+    classDef end1 fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px
+    
+    %% 应用样式
+    class A start
+    class B,C,D,E,F process
+    class G end1

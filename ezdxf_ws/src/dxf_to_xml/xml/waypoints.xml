@@ -1,0 +1,10 @@
+<shape>
+    <waypoints>
+        <waypoint index="1" x="100" y="50" z="100" r="0" speed="5"/>
+        <waypoint index="2" x="100" y="150" z="100" r="0" speed="8"/>
+        <waypoint index="3" x="200" y="150" z="100" r="0" speed="8"/>
+        <waypoint index="4" x="200" y="50" z="100" r="0" speed="8"/>
+        <waypoint index="5" x="100" y="50" z="100" r="0" speed="8"/>
+        <waypoint index="6" x="100" y="50" z="120" r="0" speed="5"/>
+    </waypoints>
+</shape>

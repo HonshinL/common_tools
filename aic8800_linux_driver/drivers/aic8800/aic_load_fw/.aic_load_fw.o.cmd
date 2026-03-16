@@ -1,0 +1,1 @@
+savedcmd_/home/hongxin/Apps/usb_wifi_linux/aic8800_linux_driver/drivers/aic8800/aic_load_fw/aic_load_fw.o := ld -m elf_x86_64 -z noexecstack   -r -o /home/hongxin/Apps/usb_wifi_linux/aic8800_linux_driver/drivers/aic8800/aic_load_fw/aic_load_fw.o @/home/hongxin/Apps/usb_wifi_linux/aic8800_linux_driver/drivers/aic8800/aic_load_fw/aic_load_fw.mod 

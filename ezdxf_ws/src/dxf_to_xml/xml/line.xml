@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<shape>
+    <waypoints>
+        <waypoint index="1" x="0.0" y="0.0" z="0" r="0" speed="5" />
+        <waypoint index="2" x="30.0" y="10.0" z="0" r="0" speed="8" />
+    </waypoints>
+</shape>
